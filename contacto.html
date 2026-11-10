@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hoja de vida web de Brayan Aroca, estudiante de Ingeniería de Software.">
+  <title>Contacto | Brayan Aroca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav>
+    <a class="logo" href="index.html">Brayan Aroca</a>
+    <div class="enlaces">
+      <a href="index.html">Inicio</a>
+      <a href="estudios.html">Estudios</a>
+      <a href="experiencia.html">Experiencia</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="contacto.html" class="activo">Contacto</a>
+    </div>
+  </nav>
+  <main class="contenedor">
+    <h1>Contacto</h1>
+    <p class="subtitulo">¿Tienes una oportunidad o una idea? Escríbeme.</p>
+    <section class="bloque">
+      <div class="cuadricula">
+        <form action="mailto:brestiven18@gmail.com" method="post" enctype="text/plain">
+          <div><label for="n">Nombre</label><input id="n" name="nombre" type="text" required></div>
+          <div><label for="c">Correo</label><input id="c" name="correo" type="email" required></div>
+          <div><label for="m">Mensaje</label><textarea id="m" name="mensaje" rows="5" required></textarea></div>
+          <button class="boton" type="submit">Enviar mensaje</button>
+        </form>
+        <div>
+          <table>
+            <tr><th>Medio</th><th>Dato</th></tr>
+            <tr><td>Correo</td><td><a href="mailto:brestiven18@gmail.com">brestiven18@gmail.com</a></td></tr>
+            <tr><td>Teléfono</td><td>311 805 8298</td></tr>
+            <tr><td>Ciudad</td><td>Bogotá D.C.</td></tr>
+            <tr><td>GitHub</td><td><a href="https://github.com/brestiven18-dev/-hoja-de-vida.git" target="_blank" rel="noopener">github.com/brayan</a></td></tr>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>© 2026 Brayan Estiben Aroca Tapiero · Hecho con HTML y CSS · Publicado en GitHub Pages</footer>
+</body>
+</html>
